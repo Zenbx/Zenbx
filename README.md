@@ -69,12 +69,10 @@
 
 > 🐍 Ce snake se nourrit de tes contributions GitHub — plus tu codes, plus il devient long !  
 
-*(Si l’animation ne s’affiche pas encore, je peux t’aider à l’activer juste après 👇)*
 
 ---
 
 ### 🧩 Projets phares
-🚀 *(Épingle-les pour les mettre en avant sur ton profil)*  
 - ⚙️ **Gestionnaire de tâches GTK avec Threads et Barres de progression**  
 - 💻 **Application e-commerce Next.js / Tailwind / Shadcn**  
 - 🤖 **Suivi intelligent de patient IoT**  
