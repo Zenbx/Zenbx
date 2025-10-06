@@ -3,7 +3,7 @@
   Auteur : @Zenbx | Inspiré par la passion du code et de l’innovation
 -->
 
-<h1 align="center">👋 Salut, moi c’est <span style="color:#00FFFF;">Zenbx</span></h1>
+<h1 align="center">👋 Salut, moi c’est <span style="color:#00FFFF;">Jeff Belekotan</span></h1>
 <h3 align="center">🧠 Étudiant en Génie Informatique à l'École Nationale Supérieure Polytechnique de Yaoundé (Cameroun)</h3>
 
 <p align="center">
