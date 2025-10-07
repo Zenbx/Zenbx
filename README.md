@@ -31,7 +31,7 @@
 
 ### 💻 Stack & Compétences
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,python,html,css,react,flutter,git,linux" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,python,html,css,javascript,typescript,react,flutter,git,linux" />
 </p>
 
 <p align="center">
