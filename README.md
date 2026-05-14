@@ -42,8 +42,8 @@
 ---
 
 ### 🌌 Domaines d’intérêt
+- 💻 **Systèmes Distribués + DevOps**
 - 🌐 **Développement Web & Mobile**
-- 🤖 **IA & Machine Learning**
 - 🔌 **IoT & Systèmes Embarqués**
 - 🛰️ **Réseaux & Communication**
 - 🧮 **Mathématiques appliquées à l’ingénierie**
