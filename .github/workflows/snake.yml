@@ -2,37 +2,30 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *"   # toutes les 12 heures
+  workflow_dispatch:          # lancement manuel
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - name: Checkout du dépôt
-        uses: actions/checkout@v3
-
-      # Installer Node.js (nécessaire pour Platane/snk)
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Générer le snake
+        uses: Platane/snk/svg-only@v3
         with:
-          node-version: "18"
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
-      # Installer snk globalement
-      - name: Installer Snake
-        run: npm install -g snk
-
-      # Générer le snake
-      - name: Génération Snake
-        run: snk --username Zenbx --output dist/github-contribution-grid-snake.svg
-
-      # Lister le contenu pour debug
-      - name: Vérifier contenu dist
-        run: ls -la dist
-
-      # Publier sur la branche output
-      - name: Publier sur output
-        uses: crazy-max/ghaction-github-pages@v3
+      - name: Publier sur la branche output
+        uses: crazy-max/ghaction-github-pages@v3.2.0
         with:
           target_branch: output
           build_dir: dist
