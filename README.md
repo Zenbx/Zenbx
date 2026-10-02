@@ -53,7 +53,7 @@
 
 **Langages**
 
-<img src="https://skillicons.dev/icons?i=c,cpp,java,py,js,ts,dart,bash&theme=dark" alt="Langages" />
+<img src="https://skillicons.dev/icons?i=c,go,cpp,java,py,js,ts,dart,bash&theme=dark" alt="Langages" />
 
 **Web & Mobile**
 
@@ -61,7 +61,7 @@
 
 **Infra & Outils**
 
-<img src="https://skillicons.dev/icons?i=linux,git,github,docker,githubactions,vscode&theme=dark" alt="Infra et outils" />
+<img src="https://skillicons.dev/icons?i=linux,git,github,docker,kubernetes,githubactions,vscode&theme=dark" alt="Infra et outils" />
 
 **Embarqué & IoT**
 
